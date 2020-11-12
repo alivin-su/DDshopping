@@ -2,10 +2,17 @@ spring:
   cloud:
     gateway:
       routes:
-            - id: admin_route
-              uri: lb://renren-fast
-              predicates:
-                - Path=/api/**
-              filters:
-#              正则表达式
-                - RewritePath=/api/(?<segment>.*),/renren-fast/$\{segment}
+        - id: product_route
+          uri: lb://ddmall-product
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            #              正则表达式
+            - RewritePath=/api/(?<segment>.*),/renren-fast/$\{segment}
