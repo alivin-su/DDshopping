@@ -15,6 +15,7 @@
         <module>ddmall-order</module>
         <module>ddmall-product</module>
         <module>ddmall-ware</module>
+        <module>ddmall-gateway</module>
         <module>renren-fast</module>
         <module>renren-generator</module>
         <module>ddmall-common</module>

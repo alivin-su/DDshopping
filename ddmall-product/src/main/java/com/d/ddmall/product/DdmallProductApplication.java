@@ -2,6 +2,7 @@ package com.d.ddmall.product;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * 1.整合Mybatis-plus
@@ -22,6 +23,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
+@EnableDiscoveryClient
 public class DdmallProductApplication {
 
     public static void main(String[] args) {
