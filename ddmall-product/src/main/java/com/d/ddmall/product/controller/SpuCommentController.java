@@ -3,7 +3,6 @@ package com.d.ddmall.product.controller;
 import java.util.Arrays;
 import java.util.Map;
 
-//import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -21,9 +20,9 @@ import com.d.common.utils.R;
 /**
  * 商品评价
  *
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2020-10-29 19:11:32
+ * @author leifengyang
+ * @email leifengyang@gmail.com
+ * @date 2019-10-01 22:50:32
  */
 @RestController
 @RequestMapping("product/spucomment")

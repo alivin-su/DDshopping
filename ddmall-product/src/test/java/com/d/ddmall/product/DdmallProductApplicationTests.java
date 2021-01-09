@@ -6,6 +6,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+
+//第一步引入对象存储的额starter
+//第二部配置key和endpoint等配置信息
+//第三步使用ossClient进行相关操作
 @SpringBootTest
 class DdmallProductApplicationTests {
 
