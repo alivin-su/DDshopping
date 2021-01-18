@@ -182,9 +182,6 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity> i
                         log.error("远程保存sku优惠信息失败");
                     }
                 }
-
-
-
             });
         }
 
